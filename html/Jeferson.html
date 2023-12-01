@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- NOME DO SITE -->
+  <title>Ponto Final</title>
+
+  <!-- FOTO DO SITE -->
+  <link rel="icon" class="logo" href="../images/god.jfif" >
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/membros.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap" >
+
+  <!-- FONTES -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+  <!-- SCRIPT -->
+  <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- MENU E CABEÇALHO -->
+<section class="header">
+    <nav>
+      <!-- LOGO DO SITE -->
+      <a href="../index.html"><img class="logo" src="../images/god.jfif"></a>
+      <div class="navLinks" id="navLinks">
+        <i class="fas fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <!-- MENU DO SITE -->
+          <li><a href="../index.html">HOME</a></li>
+          <li><a href="../index.html#membros">MEMBROS</a></li>
+          <li><a href="../index.html#sobre">SOBRE NÓS</a></li>
+          <li><a href="../index.html#footer">CONTATO</a></li>
+        </ul>
+      </div>
+      <i class="fas fa-bars" onclick="showMenu()"></i>
+    </nav>
+  
+
+  <!-- DESCRIÇÃO DO MEMBRO -->
+  <div class="container">
+    <!-- PARTE DE FUNDO BRANCA-->
+    <div id="main">
+      <!-- IMAGEM E BIO -->
+      <section id="intro" class="main special">
+        <div class="spotlight">
+          <div class="content">
+            <header class="major">
+              <h2><b>Jefferson</b></h2>
+            </header>
+            <p id="" style="font-weight: bold;">Destaca-se na modelagem de cenários, desempenhando um papel crucial na construção do ambiente do jogo. Sua expertise em criar ambientes envolventes contribui significativamente para a atmosfera global do projeto. Além disso, participa ativamente em todas as fases do projeto, oferecendo uma perspectiva abrangente e garantindo uma coesão harmoniosa entre os elementos visuais e funcionais do jogo. Sua participação integral em todas as etapas do processo contribui para a consistência e excelência do produto final.</p>
+          </div>
+          <span class="image"><img src="../images/jefferson.jpeg" alt="" /></span>
+        </div>
+      </section>
+    </div>
+  </div>
+</section>
+
+
+  
+  <!-- JavaScipt -->
+  <script>
+    const navLinks= document.getElementById("navLinks")
+    
+    function showMenu(){
+      navLinks.style.right = "0";
+    }
+
+    function hideMenu(){
+      navLinks.style.right = "-200px";
+    }
+  </script>
+
+    
+</body>

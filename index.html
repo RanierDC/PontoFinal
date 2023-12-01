@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- NOME DO SITE -->
+    <title>Ponto Final</title>
+
+    <!-- FOTO DO SITE -->
+    <link rel="icon" class="logo" href="images/god.jfif" >
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap" >
+
+    <!-- FONTES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  </head>
+
+  <body>
+    <!-- MENU E CABEÇALHO -->
+    <section class="header" id="header"">
+      <nav>
+        <!-- LOGO DO SITE -->
+        <a href="index.html">
+          <img class="logo" src="images/god.jfif" title="Logo da Ponto Final" alt="Imagem da nossa Logo">
+        </a>
+        <div class="navLinks" id="navLinks">
+          <i class="fas fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <!-- MENU DO SITE -->
+            <li>
+              <a href="index.html">
+                HOME
+              </a>
+            </li>
+            <li>
+              <a href="#membros">
+                MEMBROS
+              </a>
+            </li>
+            <li>
+              <a href="#sobre">
+                SOBRE NÓS
+              </a>
+            </li>
+            <li>
+              <a href="#footer">
+                CONTATO
+              </a>
+            </li>
+          </ul>
+        </div>
+      <i class="fas fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+      <div class="titulo">
+        <h1>
+          Ponto Final
+        </h1>
+        <p class="textoPa">
+          A Ponto Final é uma empresa de desenvolvimento de jogos com sede em São Paulo, Brasil. Fundada em 2023 por um grupo de entusiastas de jogos, a empresa tem como objetivo criar experiências de jogo envolventes e inovadoras para jogadores em todo o mundo. A empresa se dedica a criar jogos com histórias envolventes e jogabilidade divertida e desafiadora. 
+        </p>
+        <a href="https://ysetter.itch.io/rebattle" download class="BtnJogo">
+          JOGUE MONOCHROMO!!
+        </a>
+      </div>
+    </section>
+
+    <!-- MEMBROS E INFORMAÇÕES SOBRE ELES -->
+    <section id="membros" class="infos">
+      <h1>
+        Membros de nossa empresa:
+      </h1>
+      <p>
+        Temos um total de 6 membros que compõem nosso grupo, e cada um deles tem diferentes funções e habilidades.
+      </p>
+
+      <div class="row">
+        <div class="campoFoto">
+          <a href="html/Ranier.html">
+            <img src="images/Ranier.jpeg" title="Imagem de nosso membro Ranier" alt="Foto do nosso membro Ranier" style="border-radius: 5px;">
+            <div class="infoMembro">
+              <h3>Sound Designer, Programador Web e Tester</h3>
+            </div>
+          </a>
+        </div>
+      
+
+        <div class="campoFoto">
+          <a href="html/Gabriel.html">
+            <img src="images/Gabriel.jpeg" title="Imagem de nosso membro Gabriel" alt="Foto do nosso membro Gabriel" style="border-radius: 5px;">
+            <div class="infoMembro"> 
+              <h3>Programador Unity, Animador e Tester</h3>
+            </div>
+          </a>
+        </div>
+
+        <div class="campoFoto">
+          <a href="html/Iago.html">
+            <img src="images/Iago.jpg" title="Imagem de nosso membro Iago" alt="Foto do nosso membro Iago" style="border-radius: 5px;">
+            <div class="infoMembro">
+              <h3>Designer de Cenário, Level Designer e Game Designer</h3>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <!--outro campo--> 
+      <div class="row">
+        <div class="campoFoto">
+          <a href="html/Lucas.html">
+            <img src="images/Lucas.jpeg" title="Imagem de nosso membro Lucas" alt="Foto do nosso membro Lucas" style="border-radius: 5px;">
+            <div class="infoMembro">
+              <h3>Level Designer e Programador Mobile</h3>
+            </div>
+          </a>
+        </div>
+
+        <div class="campoFoto">
+          <a href="html/Andre.html">
+            <img src="images/Andre.jpeg" title="Imagem de nosso membro André" alt="Foto do nosso membro André" style="border-radius: 5px;">
+            <div class="infoMembro"> 
+              <h3>Designer de Personagem, Game Designer e Animador</h3>
+            </div>
+          </a>
+        </div>
+
+        <div class="campoFoto">
+          <a href="html/Jeferson.html">
+            <img src="images/jefferson.jpeg" title="Imagem de nosso membro Jeffersonalt=" alt="Foto do nosso membro Jefferson" style="border-radius: 5px;">
+            <div class="infoMembro">
+              <h3>Designer de Cenário e Level Designer</h3>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- SOBRE A EMPRESA -->
+    <section id="sobre" class="empresa">
+    
+      <h1>Sobre a nossa Empresa</h1>
+    
+      <div class="row">
+      
+        <div class="empresaInfo">
+          <h3 class="textoTitulo">
+            História da Ponto Final
+          </h3>
+          <p class="textoEmpresa">
+            Seis jovens visionários, apaixonados por desenvolvimento de jogos digitais, uniram suas habilidades diversas para embarcar em um projeto de TCC revolucionário. Alunos do curso técnico integrado ao médio, trouxeram consigo expertise em programação, arte, narrativa, design, música e experiência do usuário. Ao longo desse desafiador percurso, eles fundaram a "Ponto Final", uma empresa que transformou a ideia inovação e colaboração em suas mentes. O jogo eletrônico homônimo, também intitulado "Monocromo, é o testemunho tangível de sua dedicação conjunta, consolidando não apenas uma conquista acadêmica, mas também um legado duradouro na comunidade de desenvolvimento de jogos. Essa é a história da nossa empresa.
+          </p>
+          <br>
+          <h3 class="textoTitulo">
+            Inovação e Desenvolvimento
+          </h3>
+          <p class="textoEmpresa">
+            Estamos comprometidos com a inovação incessante. Acreditamos que a chave para o sucesso está na capacidade de abraçar mudanças, adotar tecnologias emergentes e desafiar constantemente os limites do que é possível no mundo dos jogos eletrônicos.
+          </p>
+          <h3 class="textoTitulo">
+            Valores
+          </h3>
+          <p class="textoEmpresa">
+            Na indústria de jogos eletrônicos em constante evolução, nossa missão é liderar pelo exemplo. Buscamos ser pioneiros, explorando novas narrativas, mecânicas e tecnologias para oferecer aos jogadores algo além do convencional. Acreditamos que cada jogo é uma oportunidade de contar uma história envolvente e proporcionar uma experiência única. 
+          </p>
+          <h3 class="textoTitulo">
+            Missão 
+          </h3>
+          <p class="textoEmpresa">
+            Entendemos que, no centro de nossa missão, está a satisfação do cliente. Buscamos constantemente compreender e atender às expectativas dos jogadores, criando experiências que não apenas atendam, mas superem as suas expectativas.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- RODAPÉ -->
+    <footer>
+      <div class="container__footer" id="footer">
+          <div class="box__footer">
+              <div class="logo">
+                <img class="logo" src="images/god.jfif" title="Logo da Ponto Final" alt="Imagem da logo de nossa empresa">
+              </div>
+          </div>
+          <div class="box__footer">
+            <h2>
+              Nossas aplicações
+            </h2>
+            <a href="https://github.com/yGabrielT/MonoCromo.git">
+              Monochromo
+            </a>
+            <a href="https://github.com/LuquetaZ/FurtaCorApp.git">
+              Furtacor 
+            </a>
+          </div>
+
+          <div class="box__footer2">
+            <h2>
+              Contate-nos
+            </h2>
+            <a href="https://www.google.com.br/maps/place/Av.+Engenheiro+Luís+Carlos+Berrini,+105+-+Cidade+Monções,+São+Paulo+-+SP,+04571-010/@-23.5988705,-46.6924871,17z/data=!3m1!4b1!4m6!3m5!1s0x94ce5734fdf62e21:0xbd78dea7464d6dce!8m2!3d-23.5988754!4d-46.6902931!16s%2Fg%2F11nnk_j3yg">
+              Localização
+            </a>
+            <a href="mailto:pontofinalinc.contato@gmail.com"">
+              Email
+            </a>
+            <a href="tel:+55113721-3287"">
+              Telefone
+            </a>           
+          </div>
+
+          <div class="box__footer3">
+            <h2>
+              Redes Sociais
+            </h2>
+            <a href="https://twitter.com/PontoFinalDev">
+              <i class="fab fa-twitter-square"></i> 
+              Twitter
+            </a>
+            <a href="https://www.linkedin.com/in/ponto-final-038278270/">
+              <i class="fab fa-linkedin"></i> 
+              Linkedin
+            </a>
+            <a href="https://instagram.com/pontofinaldev?igshid=YmMyMTA2M2Y=">
+              <i class="fab fa-instagram-square"></i> 
+              Instagram
+            </a>
+            <a href="https://www.tiktok.com/@pontofinaldev?_t=8ddSLjVuIC5&_r=1">
+              <i class="fab fa-tiktok"></i> 
+              Tik Tok
+            </a>
+          </div>
+      </div>
+
+      <div class="box__copyright">
+        <hr>
+        <p>
+          Todos os direitos reservados © 2023 
+          <b>
+            Ponto Final
+          </b>
+        </p>
+      </div>
+
+      <div data-scroll="suave" data-anima="scroll">
+        <a href="#header">
+          <div class="topo" id="topo">
+            <img src="images/arrow-up2.png" title="Voltar ao topo" alt="Imagem de voltar ao topo">
+          </div>
+        </a>
+      </div>
+    </footer>
+
+    <!-- SCRIPTS -->
+    <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
+    <script src="../Site-Ponto-Final/script/menu.js" ></script>
+    <script src="../Site-Ponto-Final/script/scroll.js" ></script>
+  </body>
+</html>

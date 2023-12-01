@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- NOME DO SITE -->
+  <title>Ponto Final</title>
+
+  <!-- FOTO DO SITE -->
+  <link rel="icon" class="logo" href="../images/god.jfif" >
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/membros.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap" >
+
+  <!-- FONTES -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+  <!-- SCRIPT -->
+  <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- MENU E CABEÇALHO -->
+<section class="header">
+    <nav>
+      <!-- LOGO DO SITE -->
+      <a href="../index.html"><img class="logo" src="../images/god.jfif"></a>
+      <div class="navLinks" id="navLinks">
+        <i class="fas fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <!-- MENU DO SITE -->
+          <li><a href="../index.html">HOME</a></li>
+          <li><a href="../index.html#membros">MEMBROS</a></li>
+          <li><a href="../index.html#sobre">SOBRE NÓS</a></li>
+          <li><a href="../index.html#footer">CONTATO</a></li>
+        </ul>
+      </div>
+      <i class="fas fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+
+    <!-- DESCRIÇÃO DO MEMBRO -->
+  <div class="container">
+    <!-- PARTE DE FUNDO BRANCA-->
+    <div id="main">
+      <!-- IMAGEM E BIO -->
+      <section id="intro" class="main special">
+        <div class="spotlight">
+          <div class="content">
+            <header class="major">
+              <h2><b>Lucas</b></h2>
+            </header>
+            <p id="" style="font-weight: bold;">Destaca-se como o programador principal para plataformas móveis, trazendo habilidades técnicas cruciais para o desenvolvimento do projeto. Além disso, desempenha um papel vital no design de artes conceituais e definitivas do game, contribuindo para a estética visual única do jogo. Sua capacidade de unir programação eficiente e criatividade visual resulta em uma experiência coesa e atraente para os usuários.</p>
+          </div>
+          <span class="image"><img src="../images/Lucas.jpeg" alt="" /></span>
+        </div>
+      </section>
+    </div>
+  </div>
+</section>
+
+  <!-- JavaScipt -->
+  <script>
+    const navLinks= document.getElementById("navLinks")
+    
+    function showMenu(){
+      navLinks.style.right = "0";
+    }
+
+    function hideMenu(){
+      navLinks.style.right = "-200px";
+    }
+  </script>
+</body>
